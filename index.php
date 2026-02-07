@@ -1,6 +1,6 @@
 <?php
 // PHP to handle guest personalization via URL: index.php?guest=Dato+Azman
-$guestName = isset($_GET['guest']) ? htmlspecialchars($_GET['guest']) : "Our Valued Guest";
+//$guestName = isset($_GET['guest']) ? htmlspecialchars($_GET['guest']) : "Our Valued Guest";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -356,4 +356,5 @@ $guestName = isset($_GET['guest']) ? htmlspecialchars($_GET['guest']) : "Our Val
         }
     </script>
 </body>
+
 </html>
